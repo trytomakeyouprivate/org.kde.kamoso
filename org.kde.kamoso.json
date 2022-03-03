@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kamoso-21.12.2.tar.xz",
-                    "sha256": "cb15b2bdff6ec933f4254a0f194f3170a9b624ebe8ab19138792d50afa0d1627"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kamoso-21.12.3.tar.xz",
+                    "sha256": "2bde8e8e6de25673a412ba6a966e898959ee5625dcadadc1bc295c12ad7128e1"
                 },
                 {
                     "type": "patch",
