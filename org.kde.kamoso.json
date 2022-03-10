@@ -32,7 +32,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kamoso-21.12.3.tar.xz",
-                    "sha256": "2bde8e8e6de25673a412ba6a966e898959ee5625dcadadc1bc295c12ad7128e1"
+                    "sha256": "2bde8e8e6de25673a412ba6a966e898959ee5625dcadadc1bc295c12ad7128e1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kamaso-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
