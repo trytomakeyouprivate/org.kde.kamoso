@@ -31,26 +31,15 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kamoso-21.12.3.tar.xz",
-                    "sha256": "2bde8e8e6de25673a412ba6a966e898959ee5625dcadadc1bc295c12ad7128e1",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kamoso-22.04.0.tar.xz",
+                    "sha256": "fae9859de2c2a905b947aae2eed5c39cdeca53e48ff2f3929da49f44b374f005",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kamaso-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
-                },
-                {
-                    "type": "file",
-                    "path": "128-apps-kamoso.png"
                 }
-            ],
-            "post-install": [
-                "install -Dpm 0644 128-apps-kamoso.png /app/share/icons/hicolor/128x128/apps/kamoso.png"
             ]
         }
     ]
