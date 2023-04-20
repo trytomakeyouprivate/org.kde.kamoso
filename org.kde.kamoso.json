@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kamoso-22.12.3.tar.xz",
-                    "sha256": "e41e8a910a937b854b985ad16a3bb8b3050e0ce35269bd2192e934c4ca963ade",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kamoso-23.04.0.tar.xz",
+                    "sha256": "6ab8690e45616087e205c7fc80accc27a8a887108f58477877b66e24061c12f2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
